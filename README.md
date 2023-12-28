@@ -27,8 +27,22 @@ Serving the HTML pages.
 Testing the webserver
 
 ## PROGRAM:
+<html>
+       <body>
+            <h1>
+                Top five Revenue generating Software Companies.<br>
+                1.apple<br>
+                2.microscoft<br>
+                3.IBM<br>
+                4.TCS<br>
+                5.oracle<br>
+            <h1>
+        </body>
+</html>
 
 ## OUTPUT:
+![Screenshot 2023-12-28 110650](https://github.com/23002824/webserver/assets/151514009/33281de1-8476-4d51-b84d-80c05c4be0a9)
+
 
 ## RESULT:
 The program is executed succesfully
