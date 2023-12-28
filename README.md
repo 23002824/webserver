@@ -29,19 +29,14 @@ Testing the webserver
 ## PROGRAM:
 ```
 from http.server import HTTPServer, BaseHTTPRequestHandler
+
 content="""
 
 <html>
 <head>
 </head>
 <body>
-<h1>Top five Revenue generating Software Companies.<br>
-    1.apple<br>
-    2.microscoft<br>
-    3.IBM<br>
-    4.TCS<br>
-    5.oracle<br>
-</h1>
+<h1>Welcome</h1>
 </body>
 </html>
 """
@@ -52,9 +47,12 @@ class MyHandler(BaseHTTPRequestHandler):
         self.send_header('Content-type', 'text/html')
         self.end_headers()
         self.wfile.write(content.encode())
+
+
 server_address=('',80)
 httpd=HTTPServer(server_address,HelloHandler)
 httpd.serve_forever()
+
 ```
 
 ## OUTPUT:
